@@ -1,0 +1,142 @@
+{
+  "0": {
+    "iteration": 0,
+    "cfg": {
+      "time": "Sun Jun 23 23:34:00 2024",
+      "round": 0,
+      "seed": 11210,
+      "config": {
+        "trial_seed": 7684,
+        "arch": "vgg19",
+        "optim": "SGD",
+        "momentum": 0.7206164940541036,
+        "sched": "CyclicLR",
+        "scheduler_param": "None",
+        "epochs": 200,
+        "weight_decay": 2.6053233480893608e-05,
+        "datasplit": "uniform",
+        "dirichlet_alpha": "None",
+        "lr": 0.008256775377937505,
+        "dropout": 0.0,
+        "node_id": 0,
+        "node_count": 1,
+        "dataset_seed": 210,
+        "batch_size": 256
+      },
+      "test_acc": 0.9005,
+      "converging_threshold": 0.9
+    }
+  },
+  "1": {
+    "iteration": 0,
+    "cfg": {
+      "time": "Mon Jun 24 02:32:13 2024",
+      "round": 1,
+      "seed": 11220,
+      "config": {
+        "trial_seed": 7076,
+        "arch": "regnetx_200mf",
+        "optim": "SGD-M",
+        "momentum": 0.9858684617591867,
+        "sched": "ReduceLROnPlateau",
+        "scheduler_param": "None",
+        "epochs": 200,
+        "weight_decay": 0.00010394001588929032,
+        "datasplit": "uniform",
+        "dirichlet_alpha": "None",
+        "lr": 0.006047937854649695,
+        "dropout": 0.0,
+        "node_id": 0,
+        "node_count": 1,
+        "dataset_seed": 220,
+        "batch_size": 256
+      },
+      "test_acc": 0.9262,
+      "converging_threshold": 0.9
+    }
+  },
+  "2": {
+    "iteration": 2,
+    "cfg": {
+      "time": "Mon Jun 24 10:25:49 2024",
+      "round": 2,
+      "seed": 31230,
+      "config": {
+        "trial_seed": 3235,
+        "arch": "simpledla",
+        "optim": "SGD-N",
+        "momentum": 0.8722845131660353,
+        "sched": "CosineAnnealingLR",
+        "scheduler_param": 17.035947054559728,
+        "epochs": 200,
+        "weight_decay": 1.9589484425998513e-05,
+        "datasplit": "uniform",
+        "dirichlet_alpha": "None",
+        "lr": 0.03264578338955776,
+        "dropout": 0.0,
+        "node_id": 0,
+        "node_count": 1,
+        "dataset_seed": 230,
+        "batch_size": 256
+      },
+      "test_acc": 0.9227,
+      "converging_threshold": 0.9
+    }
+  },
+  "3": {
+    "iteration": 2,
+    "cfg": {
+      "time": "Mon Jun 24 23:26:04 2024",
+      "round": 3,
+      "seed": 31240,
+      "config": {
+        "trial_seed": 8915,
+        "arch": "googlenet",
+        "optim": "NAdam",
+        "momentum": 0.0,
+        "sched": "ExponentialLR",
+        "scheduler_param": 0.9145786973438093,
+        "epochs": 200,
+        "weight_decay": 0.0004129327748482861,
+        "datasplit": "uniform",
+        "dirichlet_alpha": "None",
+        "lr": 0.0005200352529886811,
+        "dropout": 0.0,
+        "node_id": 0,
+        "node_count": 1,
+        "dataset_seed": 240,
+        "batch_size": 256
+      },
+      "test_acc": 0.9101,
+      "converging_threshold": 0.9
+    }
+  },
+  "4": {
+    "iteration": 3,
+    "cfg": {
+      "time": "Tue Jun 25 16:15:54 2024",
+      "round": 4,
+      "seed": 41250,
+      "config": {
+        "trial_seed": 2302,
+        "arch": "densenet121",
+        "optim": "Adam",
+        "momentum": 0.0,
+        "sched": "StepLR",
+        "scheduler_param": 18.528063370720457,
+        "epochs": 200,
+        "weight_decay": 1.5842161316526423e-05,
+        "datasplit": "uniform",
+        "dirichlet_alpha": "None",
+        "lr": 0.000692270602808533,
+        "dropout": 0.0,
+        "node_id": 0,
+        "node_count": 1,
+        "dataset_seed": 250,
+        "batch_size": 256
+      },
+      "test_acc": 0.9094,
+      "converging_threshold": 0.9
+    }
+  }
+}
