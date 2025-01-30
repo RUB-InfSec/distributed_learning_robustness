@@ -13,7 +13,7 @@ conda env create -f environment.yml
 conda activate decentralized_robustness
 ```
 
-The following files need to prepared:
+The following files need to be prepared:
 
 - Adversarial images ```data/attacks.zip``` unpacked in place, i.e., the resulting folder is ```data/attacks```.
 
