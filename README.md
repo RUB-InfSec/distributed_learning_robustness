@@ -93,14 +93,17 @@ The evaluation is launched with the script ```eval.py```, which reads the log fi
 ## Citation
 
 ```
-@misc{andreina2024robustnessdistributedmachinelearning,
-      title={On the Robustness of Distributed Machine Learning against Transfer Attacks}, 
-      author={Sébastien Andreina and Pascal Zimmer and Ghassan Karame},
-      year={2024},
-      eprint={2412.14080},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.14080}, 
+@article{Andreina_Zimmer_Karame_2025, 
+    title={On the Robustness of Distributed Machine Learning Against Transfer Attacks}, 
+    author={Andreina, Sebastien and Zimmer, Pascal and Karame, Ghassan},
+    volume={39}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/33688}, 
+    DOI={10.1609/aaai.v39i15.33688}, 
+    number={15}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    year={2025}, 
+    month={Apr.}, 
+    pages={15382-15390} 
 }
 ```
 
